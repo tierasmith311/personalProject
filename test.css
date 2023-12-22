@@ -1,0 +1,72 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+h1 {
+  margin: 3rem 0rem;
+  text-align: center;
+}
+
+.items {
+  max-width: 700px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  display: none;
+  width: 700px;
+  height: auto;
+}
+
+.active {
+  display: block;
+}
+
+.action {
+  position: absolute;
+  z-index: 1;
+}
+
+a {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 8px 13px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.right,
+.left {
+  display: flex;
+}
+
+.twentyone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twentytwo {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  width: 200px;
+
+}

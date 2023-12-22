@@ -1,0 +1,50 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+
+  color: black;
+  background-color: rgb(246, 246, 238);
+}
+
+img {
+  align-items: center;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-align: center;
+}
+
+nav.Portfolio {
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer;
+  padding-bottom: 0px;
+}
+
+h2.aboutMe {
+
+  text-align: center;
+  margin: 0px;
+
+}
+
+p.aboutMe {
+
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  position: absolute;
+  margin-top: 20px;
+  margin: px;
+  padding: 0px;
+}
