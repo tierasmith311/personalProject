@@ -5,19 +5,13 @@
 }
 
 body {
-
   color: black;
   background-color: rgb(246, 246, 238);
-}
-
-img {
-  align-items: center;
 }
 
 h1 {
   padding-top: 20px;
   padding-bottom: 20px;
-
   text-align: center;
 }
 
@@ -29,22 +23,19 @@ nav.Portfolio {
 }
 
 h2.aboutMe {
-
   text-align: center;
-  margin: 0px;
+  margin: 20px 0;
 
 }
 
 p.aboutMe {
-
   text-align: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-  position: absolute;
-  margin-top: 20px;
-  margin: px;
-  padding: 0px;
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
 }
